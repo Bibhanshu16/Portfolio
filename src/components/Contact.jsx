@@ -20,7 +20,7 @@ function Contact() {
     e.preventDefault();
 
     
-    fetch('https://formspree.io/f/7eae6d72c347126c34b0047ca8694591', {
+    fetch('https://formspree.io/f/xblykynr', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(formData),
