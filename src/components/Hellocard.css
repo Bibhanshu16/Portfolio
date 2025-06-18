@@ -1,0 +1,62 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #e8e8e8;
+}
+
+.hellocard-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  background-color: #e8e8e8;
+  color: rgb(0, 0, 0);
+  padding: 2rem 4rem;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.hellocard-text {
+  max-width: 50%;
+  padding-left: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hellocard-text h1 {
+  font-size: 12rem;
+  margin: 7rem 0 -2rem 0;
+}
+
+.hellocard-text p {
+  font-size: 1.5rem;
+  color: #020202;
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.scroll-down {
+  align-self: flex-start;
+  margin-top: auto;
+  padding-left: 1rem;
+  padding-bottom: 5rem; 
+}
+
+.scroll-down h3 {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  color: rgb(61, 61, 61);
+}
+
+.hellocard-image {
+  padding-right: 5rem;
+}
+
+.hellocard-image img {
+  display: block;
+  width: 700px;
+  height: 700px;
+  padding-right: 5rem;
+}
